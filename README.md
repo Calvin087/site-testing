@@ -1,16 +1,24 @@
 # Site Testing Automation Attempt
 
-## Notes: 
+- [Table Of Contents]()
+    - [Features To Test](#features-to-test)
+    - [Diary & Ideas - 2020-10-23 15:45:08](#diary--ideas---2020-10-23-154508)
 
+</br>
 
-
-#### Diary & Ideas - 2020-10-23 15:45:08
+### Features To Test
+### Diary & Ideas - 2020-10-23 15:45:08
 
 </br>
 
 **What actually needs to be done?**
+No idea how to do this with UnitTest alone, so I'm probably going to use Selenium based off of a course I went through this week. Seems like a pretty straight forward way to get it done for a beginner.
+
+The plan is to get this done without asking for help, but when / **if** I complete this, I'll deff ask for some feedback on the ideas that I've made work.
 
 </br>
+
+**Features To Test**
 
 **Log in Features**
 
