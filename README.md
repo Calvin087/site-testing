@@ -1,6 +1,6 @@
 # Site Testing Automation Attempt
 
-- [Table Of Contents]()
+- [Table Of Contents](#)
     - [Features To Test](#features-to-test)
     - [Diary & Ideas - 2020-10-23 15:45:08](#diary--ideas---2020-10-23-154508)
 
