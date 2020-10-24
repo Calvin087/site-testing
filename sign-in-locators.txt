@@ -1,0 +1,71 @@
+Create Account / Log in page locators
+
+URL
+http://automationpractice.com/index.php?controller=authentication&back=my-account
+
+Create Account input
+ID = "email_create"
+Name = "email_create"
+
+Create Account Button
+ID = "SubmitCreate"
+Name = "SubmitCreate"
+
+SLEEP 2 seconds (not wait)
+
+Gender
+ID = "id_gender1"
+
+Form
+Fname ID = "customer_firstname"
+Lname ID = "customer_lastname"
+Email = "//input[@id= 'email']"
+password = "//input[@id= 'passwd']"
+
+DROP DOWNS
+Days ID = "days"
+Months ID = "months"
+Years ID = "years"
+
+Address
+Fname Addy ID "firstname" - auto pop
+LName Addy ID "lastname" - auto pop
+Add1 ID "address1"
+city ID "city"
+state ID "id_state"
+Postcode ID "postcode"
+Mobile ID "phone_mobile"
+Ref ID "alias"
+Submit button "css=#submitAccount > span"
+
+Choose a option either by
+dropdown.selectByIndex(1);
+dropdown.selectByVisibleText("Programmer ");
+
+Create Account Error
+Alert ID = "create_account_error"
+
+Confirm After sign up, goes straight to basket if you have items in there
+
+OTHERWISE
+
+Check that it goes to -> with empty basket
+http://automationpractice.com/index.php?controller=my-account
+
+--------------------------
+--------------------------
+
+Already Registered
+Email
+- ID = "email"
+
+Password
+- ID = "passwd"
+
+Log in Button
+ID = "SubmitLogin"
+Name = "SubmitLogin"
+css=#SubmitLogin > span
+
+Sign in Error
+"css=#center_column > .alert"

@@ -1,13 +1,42 @@
-# Site Testing Automation Attempt
-
-- [Site Testing Automation Attempt](#site-testing-automation-attempt)
-  - [Features To Test](#features-to-test)
+- [Enviroment Setup](#enviroment-setup)
+  - [Virtual Environment](#virtual-environment)
+  - [Dependencies](#dependencies)
+- [Features To Test + Diary](#features-to-test--diary)
   - [Diary & Ideas - 2020-10-23 15:45:08](#diary--ideas---2020-10-23-154508)
   - [Eat The Frog - 2020-10-23 17:45:06](#eat-the-frog---2020-10-23-174506)
+  - [Frog Eaten - 2020-10-24 14:37:27](#frog-eaten---2020-10-24-143727)
 
 </br>
 
-## Features To Test
+# Enviroment Setup
+
+</br>
+
+## Virtual Environment
+
+```
+virtualenv venv --python=python3.9
+```
+```
+source venv/bin/activate
+```
+```
+pip list
+```
+Check that this is pretty much empty. I keep making the mistake of not activating my Venv but only realise when I see millions of modules in this list.
+
+</br>
+
+## Dependencies
+
+```
+pip3 install selenium
+```
+
+</br>
+
+# Features To Test + Diary
+
 ## Diary & Ideas - 2020-10-23 15:45:08
 
 </br>
@@ -64,3 +93,13 @@ On another note I think that checking the cart quantities will be easier if I cl
 The payment method will have to be looked into as well. Maybe I can create some fake creds and see if it goes through.
 
 I also think I might be easier to add items to the cart from the product page, that is if I can't figure out how to do it from the search page.
+
+</br>
+
+## Frog Eaten - 2020-10-24 14:37:27
+
+</br>
+
+So I think I have all of the selectors that I'll need now. I'll probably test the longest one first which will be the form. I'm not sure if there is a quick way to do it, so more research is required.
+
+Now that I have all of the (What i think are) the selectors in a list with titles and general ideas of flow, I should be able to just copy and paste the findby functions and slap in the selector xpaths ONCE which will save time.
