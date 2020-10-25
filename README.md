@@ -75,8 +75,8 @@ The plan is to get this done without asking for help, but when / **if** I comple
 </br>
 
 **Cart Features**
-- Search for an item AND add to cart
-- Cart should be updated with previously added item
+- Search for an item AND add to cart **DONE**
+- Cart should be updated with previously added item **DONE**
 - Cart updated with Correct Values and Correct Items / Totals
 
 </br>

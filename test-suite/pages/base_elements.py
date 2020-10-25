@@ -27,6 +27,7 @@ class BaseElement(object):
 
     
     def input_text(self, text):
+        self.web_element.clear()
         self.web_element.send_keys(text) # if it is an input found, send keys bro
         return None
     

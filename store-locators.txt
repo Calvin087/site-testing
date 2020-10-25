@@ -10,6 +10,8 @@ Not sure how to do it for all dresses that get returned.
 - Blouse
 - Faded Short Sleeve T-shirts
 
+---------------
+
 Get Item Price and save it to a variable x2
 css=.content_price:nth-child(4) > .price
 
