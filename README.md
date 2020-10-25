@@ -1,3 +1,8 @@
+<!-- note to self> 
+- update interpreter in vscode to venv.
+- cd into project root on vscode
+<!-->
+
 - [Enviroment Setup](#enviroment-setup)
   - [Virtual Environment](#virtual-environment)
   - [Dependencies](#dependencies)
