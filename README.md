@@ -77,13 +77,15 @@ The plan is to get this done without asking for help, but when / **if** I comple
 **Cart Features**
 - Search for an item AND add to cart **DONE**
 - Cart should be updated with previously added item **DONE**
-- Cart updated with Correct Values and Correct Items / Totals
+- Cart updated with Correct Values and Correct Items / Totals **DONE**
 
 </br>
 
 **Order Features**
 - Shold be able to create a new order with items in cart
+  - log in, add one item, and click away
 - "My Account" -> "Order History" should be updated with new orders.
+  - assert order number on orders page. 
 
 </br>
 
