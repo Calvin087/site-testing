@@ -10,6 +10,7 @@
   - [Diary & Ideas - 2020-10-23 15:45:08](#diary--ideas---2020-10-23-154508)
   - [Eat The Frog - 2020-10-23 17:45:06](#eat-the-frog---2020-10-23-174506)
   - [Frog Eaten - 2020-10-24 14:37:27](#frog-eaten---2020-10-24-143727)
+  - [Wasted Time - 2020-10-25 11:42:51](#wasted-time---2020-10-25-114251)
 
 </br>
 
@@ -108,3 +109,15 @@ I also think I might be easier to add items to the cart from the product page, t
 So I think I have all of the selectors that I'll need now. I'll probably test the longest one first which will be the form. I'm not sure if there is a quick way to do it, so more research is required.
 
 Now that I have all of the (What i think are) the selectors in a list with titles and general ideas of flow, I should be able to just copy and paste the findby functions and slap in the selector xpaths ONCE which will save time.
+
+</br>
+
+## Wasted Time - 2020-10-25 11:42:51
+
+</br>
+
+Couldn't figure out why none of my files were connecting to each other when they clearly linked to one another. Turns out in my test file, I forget to actually CREATE the object which kicked off the whole chain reaction of property usage.
+
+Usual idiot mistake.
+
+Let's Go

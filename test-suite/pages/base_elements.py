@@ -16,22 +16,21 @@ class BaseElement(object):
     
     def find(self):
         
-        found_element = WebDriverWait(
+        element = WebDriverWait(
             self.driver, 10).until( # max 10secs, until
                 EC.visibility_of_element_located( # expected Con item located
                     self.locator)) # this item, based on id/class xpath/css selector.
 
-        self.web_element = found_element
+        self.web_element = element
         return None
 
     
     def input_text(self, text):
         self.web_element.send_keys(text) # if it is an input found, send keys bro
         return None
-
     
-    def click(self):
 
+    def click(self):
         element = WebDriverWait(
             self.driver, 10).until( # ensure button has loaded
                 EC.element_to_be_clickable(self.locator))
