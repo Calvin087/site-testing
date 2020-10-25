@@ -12,6 +12,7 @@
   - [Frog Eaten - 2020-10-24 14:37:27](#frog-eaten---2020-10-24-143727)
   - [Wasted Time - 2020-10-25 11:42:51](#wasted-time---2020-10-25-114251)
   - [DONE - Account creation form - 2020-10-25 14:59:29](#done---account-creation-form---2020-10-25-145929)
+  - [DONE - Adding Items To Cart - 2020-10-25 20:20:04](#done---adding-items-to-cart---2020-10-25-202004)
 
 </br>
 
@@ -140,3 +141,13 @@ An hour yesterday gathering xpaths and ID's
 An hour just contemplating how to start on Friday
 
 So we're at about 8 hours....too slow
+
+</br>
+
+## DONE - Adding Items To Cart - 2020-10-25 20:20:04
+
+</br>
+
+At around 11 hours - Took a two hour break. Things are getting a little messy, not sure how to organise these files that test across the entire site. System tests / integration tests?
+
+It's getting a bit confusing but things are working. Able to add items to cart, check if they were added ...in two ways, check price of item when buying it and make sure that the price is correct on the file cart page.
