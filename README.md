@@ -11,6 +11,7 @@
   - [Eat The Frog - 2020-10-23 17:45:06](#eat-the-frog---2020-10-23-174506)
   - [Frog Eaten - 2020-10-24 14:37:27](#frog-eaten---2020-10-24-143727)
   - [Wasted Time - 2020-10-25 11:42:51](#wasted-time---2020-10-25-114251)
+  - [DONE - Account creation form - 2020-10-25 14:59:29](#done---account-creation-form---2020-10-25-145929)
 
 </br>
 
@@ -58,11 +59,11 @@ The plan is to get this done without asking for help, but when / **if** I comple
 
 **Log in Features**
 
-- Should be able to create a new account
+- Should be able to create a new account **DONE**
   - Probably need a way to fill out the new user form?
     - Would need a dictionary maybe to store data to fill
     - Might need a random UUID type mod to create fake emails while testing.
-  - Check that page refreshes or alert shows up with confirmation to assert?
+  - Check that page refreshes or alert shows up with confirmation to assert? 
 
 - Should be able to log in with credentials.
   - Manually create an account and save those creds?
@@ -121,3 +122,19 @@ Couldn't figure out why none of my files were connecting to each other when they
 Usual idiot mistake.
 
 Let's Go
+
+**2020-10-25 12:05:45** TIMEOUT ERROR - Radio buttons take ages to load so had to adjust wait timings
+
+**2020-10-25 14:17:03** DROP DOWNS ARE HORRIBLE! 2 hours to figure out how to select a value. Nothing was working. So i had to select by xpath the exact option in the list. Now it works.
+
+</br>
+
+## DONE - Account creation form - 2020-10-25 14:59:29
+
+</br>
+
+So far just to achieve this, we're looking at 6 hours today DAMN!
+An hour yesterday gathering xpaths and ID's
+An hour just contemplating how to start on Friday
+
+So we're at about 8 hours....too slow

@@ -1,6 +1,7 @@
 from .locator_class import Locator
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.support.ui import Select
 
 class BaseElement(object):
     def __init__(self, driver, locator):
@@ -36,6 +37,11 @@ class BaseElement(object):
                 EC.element_to_be_clickable(self.locator))
 
         element.click()
+        return None
+
+
+    def select_dropdown(self):
+        self.web_element.click()
         return None
 
     

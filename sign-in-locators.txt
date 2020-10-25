@@ -16,12 +16,13 @@ SLEEP 2 seconds (not wait)
 Gender
 ID = "id_gender1"
 
-
 Form
 Fname ID = "customer_firstname"
 Lname ID = "customer_lastname"
 Email = "//input[@id= 'email']"
 password = "//input[@id= 'passwd']"
+
+
 
 DROP DOWNS
 Days ID = "days"
@@ -35,9 +36,12 @@ Add1 ID "address1"
 city ID "city"
 state ID "id_state"
 Postcode ID "postcode"
+
 Mobile ID "phone_mobile"
 Ref ID "alias"
 Submit button "css=#submitAccount > span"
+
+----------------
 
 Choose a option either by
 dropdown.selectByIndex(1);
