@@ -1,1 +1,2 @@
-dropDown_months
+" in alert.text
+    # alert.accept()

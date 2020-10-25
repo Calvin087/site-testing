@@ -43,12 +43,7 @@ class BaseElement(object):
     def select_dropdown(self):
         self.web_element.click()
         return None
-
-    
-    def attribute(self, attr_name):
-        attribute = self.web_element.get_attribute(attr_name)
-        # could be useful for debugging too if needed
-        return attribute
+        
 
     @property
     def text(self):

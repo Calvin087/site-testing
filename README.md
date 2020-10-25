@@ -65,11 +65,11 @@ The plan is to get this done without asking for help, but when / **if** I comple
     - Might need a random UUID type mod to create fake emails while testing.
   - Check that page refreshes or alert shows up with confirmation to assert? 
 
-- Should be able to log in with credentials.
+- Should be able to log in with credentials. **DONE**
   - Manually create an account and save those creds?
   - Or use the one that was just made?
 
-- Error message should be displayed to user, if they're creds aren't valid
+- Error message should be displayed to user, if they're creds aren't valid **DONE**
   - Manually save fake email and wrong password to send to **sign in** form 
 
 </br>

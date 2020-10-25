@@ -19,6 +19,42 @@ class SignInUpPage(BasePage):
         )
 
     @property
+    def sign_in_email_input(self):
+        locator = Locator(by=By.CSS_SELECTOR, value='input#email')
+
+        return BaseElement(
+            driver=self.driver,
+            locator=locator,
+        )
+    
+    @property
+    def sign_in_password_input(self):
+        locator = Locator(by=By.CSS_SELECTOR, value='input#passwd')
+
+        return BaseElement(
+            driver=self.driver,
+            locator=locator,
+        )
+
+    @property
+    def sign_in_button(self):
+        locator = Locator(by=By.ID, value='SubmitLogin')
+
+        return BaseElement(
+            driver=self.driver,
+            locator=locator,
+        )
+
+    @property
+    def sign_in_error(self):
+        locator = Locator(by=By.CSS_SELECTOR, value='.alert > p')
+    
+        return BaseElement(
+            driver=self.driver,
+            locator=locator,
+        )
+
+    @property
     def create_account_button(self):
         locator = Locator(by=By.ID, value='SubmitCreate')
 
