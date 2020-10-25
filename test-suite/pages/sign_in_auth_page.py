@@ -29,8 +29,9 @@ class SignInUpPage(BasePage):
 
     # TEST THIS FIRST - Finally Working, now alllllll the elements.
 
-    def gender_radios(self):
-        locator = Locator(by=By.ID, value='id_gender1')
+    @property
+    def gender_radio_male(self):
+        locator = Locator(by=By.CSS_SELECTOR, value='.radio-inline:nth-child(3) > .top')
 
         return BaseElement(
             driver=self.driver,

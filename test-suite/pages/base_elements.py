@@ -17,7 +17,7 @@ class BaseElement(object):
     def find(self):
         
         element = WebDriverWait(
-            self.driver, 10).until( # max 10secs, until
+            self.driver, 30).until( # max 10secs, until
                 EC.visibility_of_element_located( # expected Con item located
                     self.locator)) # this item, based on id/class xpath/css selector.
 
@@ -32,7 +32,7 @@ class BaseElement(object):
 
     def click(self):
         element = WebDriverWait(
-            self.driver, 10).until( # ensure button has loaded
+            self.driver, 30).until( # ensure button has loaded
                 EC.element_to_be_clickable(self.locator))
 
         element.click()
