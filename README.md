@@ -3,6 +3,7 @@
 - cd into project root on vscode
 <!-->
 
+- [Instructions](#instructions)
 - [Enviroment Setup](#enviroment-setup)
   - [Virtual Environment](#virtual-environment)
   - [Dependencies](#dependencies)
@@ -14,6 +15,45 @@
   - [DONE - Account creation form - 2020-10-25 14:59:29](#done---account-creation-form---2020-10-25-145929)
   - [DONE - Adding Items To Cart - 2020-10-25 20:20:04](#done---adding-items-to-cart---2020-10-25-202004)
   - [DONE - Placing an order - 2020-10-26 07:43:10](#done---placing-an-order---2020-10-26-074310)
+
+</br>
+
+# Instructions
+
+</br>
+
+- [Fork The Repo](https://github.com/Calvin087/site-testing)
+
+- CD to top level directoy
+
+- Create a [Virtual Environment](#virtual-environment)
+
+- Visit Chrome Settings
+
+![settings](images/settings.jpg)
+
+</br>
+
+- Chrome Driver Version
+
+![settings](images/version.jpg)
+
+- Download the correct version of [Chrome Driver](https://chromedriver.chromium.org/downloads)
+
+- Drag Chrome driver into Virtual Env ```venv/bin```
+
+- Pip install requirements
+
+```
+pip install requirements.txt 
+```
+
+- Run Tests via command line 
+
+> For eg:
+```
+python3 -m unittest test-suite/search_AddCart_Asrt_Price_test.py
+```
 
 </br>
 
