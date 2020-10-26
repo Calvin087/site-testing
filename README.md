@@ -13,6 +13,7 @@
   - [Wasted Time - 2020-10-25 11:42:51](#wasted-time---2020-10-25-114251)
   - [DONE - Account creation form - 2020-10-25 14:59:29](#done---account-creation-form---2020-10-25-145929)
   - [DONE - Adding Items To Cart - 2020-10-25 20:20:04](#done---adding-items-to-cart---2020-10-25-202004)
+  - [DONE - Placing an order - 2020-10-26 07:43:10](#done---placing-an-order---2020-10-26-074310)
 
 </br>
 
@@ -151,3 +152,13 @@ So we're at about 8 hours....too slow
 At around 11 hours - Took a two hour break. Things are getting a little messy, not sure how to organise these files that test across the entire site. System tests / integration tests?
 
 It's getting a bit confusing but things are working. Able to add items to cart, check if they were added ...in two ways, check price of item when buying it and make sure that the price is correct on the file cart page.
+
+</br>
+
+## DONE - Placing an order - 2020-10-26 07:43:10
+
+</br>
+
+Roughly 13 hours to finish all the system tests. We can now check that an order has been placed, visit the order page and assert that the most recent order number appears on the page. Had to slice up to confirmation message and extract the order number, save as a variable and assert on it at the end.
+
+It's rough, but for a first website test. I'm quite happy. Definately pushed me to do something I wasn't confident about.
