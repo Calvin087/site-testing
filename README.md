@@ -15,6 +15,7 @@
   - [DONE - Account creation form - 2020-10-25 14:59:29](#done---account-creation-form---2020-10-25-145929)
   - [DONE - Adding Items To Cart - 2020-10-25 20:20:04](#done---adding-items-to-cart---2020-10-25-202004)
   - [DONE - Placing an order - 2020-10-26 07:43:10](#done---placing-an-order---2020-10-26-074310)
+  - [Finished - 2020-10-26 09:22:34](#finished---2020-10-26-092234)
 
 </br>
 
@@ -202,3 +203,15 @@ It's getting a bit confusing but things are working. Able to add items to cart, 
 Roughly 13 hours to finish all the system tests. We can now check that an order has been placed, visit the order page and assert that the most recent order number appears on the page. Had to slice up to confirmation message and extract the order number, save as a variable and assert on it at the end.
 
 It's rough, but for a first website test. I'm quite happy. Definately pushed me to do something I wasn't confident about.
+
+</br>
+
+## Finished - 2020-10-26 09:22:34
+
+</br>
+
+Things To Do
+
+- Learn how to properly set up virtualenv on Windows
+- How do I run all tests at the same time, imports etc
+- Why do .import modules not work in VSCode but in terminal???
